@@ -9,9 +9,11 @@ from nltk.stem.porter import PorterStemmer
 # nltk.download('punkt')
 # nltk.download('punkt_tab')
 
+
 # Ensure required NLTK resources are available
 nltk.download('punkt')
 nltk.download('stopwords')
+nltk.download('punkt_tab')
 
 ps = PorterStemmer()
 
